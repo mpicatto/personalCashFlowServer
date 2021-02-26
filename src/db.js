@@ -9,7 +9,7 @@ const {
 
 //-----------------DB Credentials-------------------------------------//
 
-const sequelize = new Sequelize(`postgres://lzczrsnp:iv8QgVwSRJSisO8z0bZKLOQDdIXU1un3@motty.db.elephantsql.com:5432/lzczrsnp`, {
+const sequelize = new Sequelize(`elephantDb`, {
   logging: false, // set to console.log to see the raw SQL queries
   native: false // lets Sequelize know we can use pg-native for ~30% more speed
 });
