@@ -1,0 +1,1 @@
+Entre la pagina de log in y la home hacer un componente loader que cargue los datos de la api en el store 
